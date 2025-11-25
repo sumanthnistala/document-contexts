@@ -1,0 +1,119 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://trustvc.io/context/bill-of-lading.json"
+  ],
+  "type": [
+    "VerifiableCredential",
+    "BillOfLading"
+  ],
+  "issuanceDate": "2025-01-01T00:00:00Z",
+  "issuer": {
+    "id": "did:ethr:0x7c4f789ecafb4cf6ca35689b56cb8a97b8712d14"
+  },
+  "credentialStatus": {
+    "type": "OPENATTESTATION_ANCHORED_V2"
+  },
+  "credentialSubject": {
+    "id": "urn:uuid:6c2b52e2-9982-4c3f-9b7b-6a5c98fe1001",
+    "shipper": {
+      "name": "GRAIN IMPEX PRIVATE LIMITED",
+      "address": "1ST Floor, H. No 7-2-1813/5/A/1, Flat No 120, Vasavi Indraprastha Apartment, Sanath Nagar",
+      "city": "Hyderabad, Telangana",
+      "country": "INDIA"
+    },
+    "consignee": {
+      "name": "RICE NATION LIMITED",
+      "address": "#40 RIBBANS PARK ROAD",
+      "city": "IPSWICH IP3 8XS, England",
+      "country": "United Kingdom",
+      "is_negotiable": false
+    },
+    "notify_party": {
+      "name": "RICE NATION LIMITED",
+      "address": "#40 RIBBANS PARK ROAD, IPSWICH IP3 8XS, England; United Kingdom"
+    },
+    "booking_ref": "",
+    "shipper_ref": "RNL/004",
+    "imo_number": "",
+    "rider_pages": 0,
+    "bl_sequence": "3 (Three) Original Bills of Lading",
+    "vessel_details": {
+      "vessel_name": "TBN",
+      "voyage_number": "TBN"
+    },
+    "ports": {
+      "loading": "NHAVASHEVA",
+      "discharge": "FELIXSTOWE",
+      "delivery": "UNITED KINGDOM"
+    },
+    "place_of_receipt": "NHAVASHEVA",
+    "place_of_delivery": "UNITED KINGDOM",
+    "shipped_on_board_date": "",
+    "place_and_date_of_issue": "",
+    "discharge_agent": "",
+    "transport_type": "Port-To-Port",
+    "cargo": [
+      {
+        "container_numbers": "",
+        "seal_numbers": "",
+        "marks": "",
+        "description": "Rice: Non-Basmati Raw Rice, HS Code: 10063099, 200 Units, Unit Weight: 20 Kgs",
+        "gross_weight": "4.173 MT",
+        "measurement": "4.173"
+      },
+      {
+        "container_numbers": "",
+        "seal_numbers": "",
+        "marks": "",
+        "description": "Rice: Non-Basmati Ponni Rice, HS Code: 10063019, 450 Units, Unit Weight: 20 Kgs",
+        "gross_weight": "9.390 MT",
+        "measurement": "9.390"
+      },
+      {
+        "container_numbers": "",
+        "seal_numbers": "",
+        "marks": "",
+        "description": "Rice: Non-Basmati Idly Rice, HS Code: 10063019, 500 Units, Unit Weight: 20 Kgs",
+        "gross_weight": "10.430 MT",
+        "measurement": "10.430"
+      },
+      {
+        "container_numbers": "",
+        "seal_numbers": "",
+        "marks": "",
+        "description": "Rava: Rice Idly Rava, HS Code: 11029090, 23 Units, Unit Weight: 22 Kgs",
+        "gross_weight": "0.5258 MT",
+        "measurement": "0.5258"
+      },
+      {
+        "container_numbers": "",
+        "seal_numbers": "",
+        "marks": "",
+        "description": "Flour: Rice Flour, HS Code: 11029029, 23 Units, Unit Weight: 22 Kgs",
+        "gross_weight": "0.5258 MT",
+        "measurement": "0.5258"
+      }
+    ],
+    "totals": {
+      "packages": 1196,
+      "gross_weight": "25.045 MT",
+      "measurement": "25.045"
+    },
+    "freight_charges": "CIF",
+    "declared_value": "GBP 13571.724",
+    "carrier_receipt": "Goods received in apparent good order and condition unless otherwise stated",
+    "invoice_details": {
+      "number": "GI036/EXP/2025-26",
+      "date": "25.10.2025",
+      "value": "13571.724",
+      "currency": "GBP"
+    },
+    "freight_terms": "CIF",
+    "payment_terms": "30 % Advance and Balance 90 Days Credit",
+    "special_instructions": "",
+    "date_of_shipment": "25.10.2025",
+    "carrier_endorsements": "",
+    "signed_by": "Authorized Signatory for GRAIN IMPEX PRIVATE LIMITED"
+  }
+}
