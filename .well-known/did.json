@@ -1,0 +1,27 @@
+{
+  "id": "did:web:nondistractedly-heavyset-kennith.ngrok-free.dev",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1"
+  ],
+  "verificationMethod": [
+    {
+      "id": "did:web:nondistractedly-heavyset-kennith.ngrok-free.dev#keys-1",
+      "type": "Multikey",
+      "controller": "did:web:nondistractedly-heavyset-kennith.ngrok-free.dev",
+      "publicKeyMultibase": "zDnaeiUmBq9gYofvRDQcEHueyZ7GvswBsRii8Uo9yzTWvjXbs"
+    }
+  ],
+  "authentication": [
+    "did:web:nondistractedly-heavyset-kennith.ngrok-free.dev#keys-1"
+  ],
+  "assertionMethod": [
+    "did:web:nondistractedly-heavyset-kennith.ngrok-free.dev#keys-1"
+  ],
+  "capabilityInvocation": [
+    "did:web:nondistractedly-heavyset-kennith.ngrok-free.dev#keys-1"
+  ],
+  "capabilityDelegation": [
+    "did:web:nondistractedly-heavyset-kennith.ngrok-free.dev#keys-1"
+  ]
+}
